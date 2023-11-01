@@ -13,8 +13,8 @@
 
 .product {
   border-radius: 15px;
-  width: 300px;
-  height: 350px;
+  width: 200px;
+  height: 550px;
   margin: 100px;
   display: flex;
   flex-direction: column;
@@ -51,3 +51,4 @@
   color: white;
   cursor: pointer;
 }
+
