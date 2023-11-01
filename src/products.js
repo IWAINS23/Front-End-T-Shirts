@@ -29,7 +29,7 @@ export const PRODUCTS = [
   },
   {
     id: 3,
-    productName: "Hacker Coding",
+    productName: "Bug Coding",
     price: 699.0,
     productImage: product3,
   },
