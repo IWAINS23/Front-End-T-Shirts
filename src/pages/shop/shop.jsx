@@ -2,6 +2,7 @@ import React from "react";
 import { PRODUCTS } from "../../products";
 import { Product } from "./product";
 import "./shop.css";
+import { motion } from "framer-motion";
 
 export const Shop = () => {
   return (
