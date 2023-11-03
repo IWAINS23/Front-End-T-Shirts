@@ -10,7 +10,7 @@ export const Navbar = () => {
       <Link to="/" className="navbar-brand">
           <img
             src="/logo.png" 
-            width="130"
+            width="265"
             height="80"
             className="d-inline-block align-top"
             alt="Your Logo"
