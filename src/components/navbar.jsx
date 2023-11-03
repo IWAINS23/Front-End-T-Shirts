@@ -10,8 +10,8 @@ export const Navbar = () => {
       <Link to="/" className="navbar-brand">
           <img
             src="/logo.png" 
-            width="130"
-            height="80"
+            width="300"
+            height="100"
             className="d-inline-block align-top"
             alt="Your Logo"
           />
@@ -33,7 +33,7 @@ export const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link to="/cart" className="nav-link">
-                <ShoppingCart size={32} />
+                <ShoppingCart size={45} />
               </Link>
             </li>
           </ul>
