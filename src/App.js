@@ -5,7 +5,6 @@ import { Shop } from "./pages/shop/shop";
 import { Contact } from "./pages/contact";
 import { Cart } from "./pages/cart/cart";
 import { ShopContextProvider } from "./context/shop-context";
-import { motion } from "framer-motion"
 
 function App() {
   return (
