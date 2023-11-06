@@ -9,6 +9,7 @@ import { ShopContextProvider } from "./context/shop-context";
 import { motion } from "framer-motion";
 import PaymentIcons from './components/icons/icons';
 
+
 function App() {
   return (
     <div className="App">
