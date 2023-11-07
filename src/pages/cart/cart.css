@@ -17,12 +17,14 @@
 }
 
 .cartItem img {
-  width: 200px;
+  width: 150px;
+  padding: 5px;
 }
 
 .cartItem .description {
   width: 100%;
   font-size: 30px;
+  text-align-last: center;
 }
 
 .countHandler input {
@@ -40,4 +42,14 @@
   border-radius: 8px;
   margin: 10px;
   cursor: pointer;
+
+}
+
+.checkout {
+  text-align: center;
+  font-weight: bold;
+}
+
+body {
+  background-color: beige !important;
 }
