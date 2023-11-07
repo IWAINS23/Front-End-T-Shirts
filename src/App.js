@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -8,9 +7,7 @@ import { Contact } from './pages/contact';
 import { Cart } from './pages/cart/cart';
 import { ShopContextProvider } from './context/shop-context';
 import PaymentIcons from './components/icons/icons';
-<<<<<<< Updated upstream
-import Header from './components/Header'; 
-=======
+import Header from './components/Header';
 import "./App.css";
 import "./pages/shop/shop.css"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -19,14 +16,8 @@ import { Shop } from "./pages/shop/shop";
 import { Contact } from "./pages/contact";
 import { Cart } from "./pages/cart/cart";
 import { ShopContextProvider } from "./context/shop-context";
-import anime from 'animejs/lib/anime.es.js';
 
 const wrapper = document.getElementById("tiles");
->>>>>>> Stashed changes
-=======
-import Header from './components/Header';
-
->>>>>>> Stashed changes
 
 function App() {
   return (
@@ -46,26 +37,6 @@ function App() {
     </div>
   );
 }
-
-<<<<<<< Updated upstream
-// anime({
-//   targets: '.background-grid',
-//   scale: [
-//     {value: .1, easing: 'easeOutSine', duration: 500},
-//     {value: 1, easing: 'easeInOutQuad', duration: 1200}
-//   ],
-//   delay: anime.stagger(200, {grid: [14, 5], from: 'center'})
-// });
-
-// anime({
-//   targets: '.addToCartBttn',
-//   translateX: 250,
-//   scale: 2,
-//   rotate: '1turn'
-// });
-=======
-
->>>>>>> Stashed changes
 
 export default App;
 
