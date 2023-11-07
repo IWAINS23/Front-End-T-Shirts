@@ -1,0 +1,39 @@
+.icon-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-item {
+  text-align: center;
+}
+
+.icon {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.icon.amex {
+  color: black;
+}
+
+.icon.mastercard {
+  color: black;
+}
+
+.icon.visa {
+  color: black;
+}
+
+.icon.klarna {
+  color: black;
+}
+
+.icon.paypal {
+  color: black;
+}
+
+.icon.apple-pay {
+  color: black;
+}

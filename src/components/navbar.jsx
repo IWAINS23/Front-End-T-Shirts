@@ -10,12 +10,11 @@ export const Navbar = () => {
       <Link to="/" className="navbar-brand">
           <img
             src="/logo.png" 
-            width="300"
-            height="100"
+            width="265"
+            height="80"
             className="d-inline-block align-top"
             alt="Your Logo"
           />
-        
         </Link>
       </div>
       <div className="container">
