@@ -7,7 +7,17 @@ import { Contact } from './pages/contact';
 import { Cart } from './pages/cart/cart';
 import { ShopContextProvider } from './context/shop-context';
 import PaymentIcons from './components/icons/icons';
-import Header from './components/Header'; 
+import Header from './components/Header';
+import "./App.css";
+import "./pages/shop/shop.css"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Navbar } from "./components/navbar";
+import { Shop } from "./pages/shop/shop";
+import { Contact } from "./pages/contact";
+import { Cart } from "./pages/cart/cart";
+import { ShopContextProvider } from "./context/shop-context";
+
+const wrapper = document.getElementById("tiles");
 
 function App() {
   return (
@@ -29,3 +39,5 @@ function App() {
 }
 
 export default App;
+
+
