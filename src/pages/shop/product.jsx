@@ -9,7 +9,7 @@ export const Product = (props) => {
   const cartItemCount = cartItems[id];
 
   return (
-    <div className="product" >
+    <div className="product" data-tilt>
       <motion.img src={productImage} whileHover={{ scale: 1.5, rotate: 360 }}
           whileTap={{ scale: 0.8, rotate: 360, borderRadius: "100%" }}/>
       <div className="description">
