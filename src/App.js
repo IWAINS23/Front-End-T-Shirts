@@ -8,6 +8,7 @@ import { Contact } from './pages/contact';
 import { Cart } from './pages/cart/cart';
 import { ShopContextProvider } from './context/shop-context';
 import PaymentIcons from './components/icons/icons';
+<<<<<<< Updated upstream
 import Header from './components/Header'; 
 =======
 import "./App.css";
@@ -21,6 +22,10 @@ import { ShopContextProvider } from "./context/shop-context";
 import anime from 'animejs/lib/anime.es.js';
 
 const wrapper = document.getElementById("tiles");
+>>>>>>> Stashed changes
+=======
+import Header from './components/Header';
+
 >>>>>>> Stashed changes
 
 function App() {
@@ -42,6 +47,7 @@ function App() {
   );
 }
 
+<<<<<<< Updated upstream
 // anime({
 //   targets: '.background-grid',
 //   scale: [
@@ -57,6 +63,9 @@ function App() {
 //   scale: 2,
 //   rotate: '1turn'
 // });
+=======
+
+>>>>>>> Stashed changes
 
 export default App;
 
