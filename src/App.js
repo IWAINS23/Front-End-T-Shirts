@@ -9,6 +9,7 @@ import { ShopContextProvider } from './context/shop-context';
 import PaymentIcons from './components/icons/icons';
 import Header from './components/Header';
 
+
 const wrapper = document.getElementById("tiles");
 
 function App() {
